@@ -127,7 +127,7 @@ CAIQ: DSI-02.
 
 ## Background Checks
 
-Teammates with access to critical systems and sensitive information are given background checks.
+All teammates receive background checks prior to employment. Individuals who require access to critical systems and sensitive information are reviewed before access is granted.
 
 GDPR: Article 5(1)f, Article 5(2), Article 12, Article 13, Article 14. CAIQ: AIS-02, HRS-02.
 
