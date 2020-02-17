@@ -87,7 +87,7 @@ CAIQ: DSI-05, EKM-02.
 
 ## Workstations
 
-Our standard issue workstation is OS/X flavored. We require developers to use the latest OS version, expedited when there are any urgent security alerts. Workstations must use FileVault to restrict the local hard drive. Devices must be configured so that they default to data being inaccessible when the device is unattended.
+Our standard issue workstation is OS/X flavored. We require developers to use the latest OS version, expedited when there are any urgent security alerts. Workstations must use FileVault to restrict the local hard drive. Devices must be configured so that they default to data being inaccessible when the device is unattended. Xenon owned workstations have endpoint protection installed and managed by a recognized security vendor.
 
 CAIQ: CCC-04, HRS-10, HRS-11, IVS-12.
 
@@ -110,7 +110,7 @@ Any device beginning a web session, should follow these minimum requirements:
 Our team frequently works remotely--anywhere from home to planes to cafes. Even in our office locations, we do not maintain highly secured networks (especially in coworking spaces). Therefore, all environments should be considered hostile. This means:
  1. No sensitive data shall be transmitted on internal networks in cleartext. Use secure protocols (HTTPS/SSH/SFTP/SSL) where appropriate.
  1. No services should be made available on internal networks with insecure endpoints. Follow the workstation configuration procedure to turn off all insecure services. Do not host development services from workstations without security and authentication. Note workstations are configured for FileVault at rest data encryption.
- 1. All IT services should be outsourced to cloud-based vendors. This alleviates the need for a trusted internal network. For instance, Help Desk Support is hosted by our vendor, Zendesk, and accessed using 2FA over HTTPS; Shared Disks are hosted by our vendor, Google Suite, and accessed using 2FA over HTTPS; Human Resources is hosted by PingBoard and Gusto and accessed using 2FA and HTTPS.
+ 1. All IT services should be outsourced to cloud-based vendors. This alleviates the need for a trusted internal network. For instance, Help Desk Support is hosted by our vendor, Zendesk, and accessed using 2FA over HTTPS; Shared Disks are hosted by our vendor, Google Suite, and accessed using 2FA over HTTPS; Human Resources is hosted by PingBoard and JustWorks and accessed using 2FA and HTTPS.
  1. Although we do not rely on firewalls and have little control of our provided network assignments, we use NAT and any firewall options available on our SMB-class routing equipment (e.g. most of our routers block all incoming traffic in a default configuration). This blocks our internal workstation interfaces from direct access on the internet AND removes intrusion risks.
  1. Wireless Access Points will be configured for WPA2 security and all other methods disabled. Although we would like to institute user-specific authorization to our WiFi, we instead have a dedicated “internal” network and separate “guest” networks. This is a standard feature of our SMB-class WiFi hardware. WiFi access codes are rotated yearly. 
  1. Developers will use SSH for terminal services. Developers will use a workstation VPN such as TunnelBlick if other insecure cloud services are needed for access. Any VPN access will be documented on the team wiki and reviewed for security procedures by the team’s security lead. When VPN access is bridging a workstation and production environments, it will be done through a DMZ host and using individual teammate-specific logins. These logins and associated access logs will be [reviewed each month](#schedule).
@@ -127,7 +127,7 @@ CAIQ: DSI-02.
 
 ## Background Checks
 
-Teammates with access to critical systems and sensitive information are given background checks.
+All teammates receive background checks prior to employemnt, and those with access to critical systems and sensitive information receive regular reviews.
 
 GDPR: Article 5(1)f, Article 5(2), Article 12, Article 13, Article 14. CAIQ: AIS-02, HRS-02.
 
@@ -149,7 +149,7 @@ CAIQ: CCC-01.
 
 ## External Monitoring
 
-Network and application penetration testing is done on production infrastructure by Qualys. Qualys further ensures that our application and infrastructure adheres to a security baseline (e.g. public surface area acts as expected).
+Network and application penetration testing is done on production infrastructure by a recognized security vendor. This further ensures that our application and infrastructure adheres to a security baseline (e.g. public surface area acts as expected).
 
 CAIQ: AAC-02, GRM-01.
 
@@ -163,13 +163,13 @@ CAIQ: BCR-07, BCR-08.
 
 ## Status
 
-Our service had no outages in _2016, 2017 or YTD 2018_. We publish our incident and status at [StatusPage.io](https://statuspage.io).
+Our service had no outages in _2016, 2017, 2018, or 2019_. Companies publish their incident and status at their respective [StatusPage.io](https://statuspage.io) accounts.
 
 GDPR: Article 33.
 
 ## Onboarding
 
-Our teammates read and respond to this document during their onboarding. This document is linked to our onboarding checklist. This link will always point to the latest version of this document. If you have any feedback on this document, please send it to our support department email and it will be raised within our security team. Note that a [background check](#background_check) is required for all teammates.
+Our teammates read and respond to this document during their onboarding. This document is linked to our onboarding checklist. This link will always point to the latest version of this document. If you have any feedback on this document, please send it to our support department email and it will be raised within our security team. Note that a [background check](#background_check) is required for all teammates prior to starting work with any Xenon company.
 
 CAIQ: HRS-03, HRS-09.
 
@@ -210,6 +210,10 @@ _Customer Facing_
 
 CAIQ: STA-01, STA-05, STA-06.
 
+## Organizations
+
+Xenon maintains memberships in security organizations such as _InfraGard_ to rapidly share information with partners in law enforcement and the private sector. We monitor US CERT alerts and bulletins to ensure awareness of the latest vulnerabilities to assist our companies in maintaining secure products and services.
+
 ## Inapplicable
 
  * CAIQ IVS-10: Migrating physical to virtual servers.
@@ -217,4 +221,4 @@ CAIQ: STA-01, STA-05, STA-06.
 
 # License
 
-Copyright Jonathan Siegel, 2018-2019.
+Copyright Jonathan Siegel, 2018-2020.
