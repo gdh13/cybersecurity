@@ -56,8 +56,14 @@ When making updates, run ```./utils/add_links``` to add links to GDPR cross-refe
 
 ## In Use
 
- * [ScoutApp.com](https://scoutapp.com)
- * [Xplenty.com](https://Xplenty.com)
+ * [ScoutAPM.com](https://scoutapm.com)
+ * [Iron.io](https://iron.io)
+ * [Xplenty.com](https://xplenty.com)
+ * [DreamFactory.com](https://dreamfactory.com)
+ * [Strontium.io](https://teamsid.com)
+ * [TeamPassword.com](https://teampassword.com)
+ * [uxpin.com](https://uxpin.com)
+ * [ringcaptcha.com](https://ringcaptcha.com)
  * [AccountDock.com](https://AccountDock.com)
 
 # License
