@@ -1,10 +1,10 @@
 # Xenon Cybersecurity Plan
 
-*Updated February 8th, 2019.*
+*Updated July 13th, 2020.*
 
 ## Schedule
 
-This document is reviewed quarterly. The next review will be in **Q2 2019**. At this review:
+This document is reviewed quarterly. The next review will be in **Q4 2020**. At this review:
  * Business Continuity Plans are to be reviewed and tested. (CAIQ: BCR-02)
  * Application and infrastructure [security baseline](PRACTICES.md#External_Monitoring) to be reviewed. (CAIQ: GRM-01)
 
@@ -18,6 +18,8 @@ Once per year, these additional activities will be performed:
  * Review connectivity (e.g. VPC/firewall settings). (CAIQ: IVS-06)
  * Test security incident response plans. (CAIQ: SEF-02)
  * Review [vendors](PRACTICES.md#Vendors) and ensure service agreements are in alignment. (CAIQ: STA-07)
+ * Review Information Supply chain (CAIQ: STA-08)
+ * Review Third-party provider's confidentiality and delivery level agreements. (CAIQ: STA-09)
 
 ## Overview
 
@@ -284,8 +286,6 @@ GDPR: Article 8.
  * CAIQ MOS-19: No mobile device remote software version / patch validation.
  * CAIQ MOS-20: No BYOD device allowed use systems and servers.
  * CAIQ SEF-04: We are unable to support litigation holds for a specific tenant's data.
- * CAIQ STA-08: We do not review our information supply chain in an annual review.
- * CAIQ STA-09: Third-party providers' confidentiality and delivery level agreements are not reviewed annually.
 
 ## Inapplicable
 
@@ -297,4 +297,4 @@ Cloud Security Alliance Version 3.0.1 ## Awaiting their approval to retain refer
 
 # License
 
-Copyright Jonathan Siegel, 2018-2019.
+Copyright Jonathan Siegel, 2018-2020.
